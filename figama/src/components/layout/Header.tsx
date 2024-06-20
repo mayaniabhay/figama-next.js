@@ -16,7 +16,6 @@ const Header = () => {
                             <Image src={logo} alt='logo' />
                         </div>
                     </Link>
-
                     {/* navigation bar  */}
                     <ul className='flex h-full items-center duration-300 gap-x-4 sm:gap-x-8 text-16'>
                         <li className='relative group cursor-pointer hover:text-teal-700'>
