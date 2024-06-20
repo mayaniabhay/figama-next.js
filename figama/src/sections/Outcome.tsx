@@ -67,7 +67,7 @@ const Outcome = () => {
                             ))}
                         </div>
                     </div>
-
+                            
                 </div>
             </Wrapper>
         </section>
