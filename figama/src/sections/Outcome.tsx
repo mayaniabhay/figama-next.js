@@ -30,7 +30,7 @@ const Outcome = () => {
                         </p>
                         <div className='mt-6 grid grid-cols-2 gap-x-2 gap-y-4'>
                             {outComePoint.map((item, index) => (
-                                <div key={index} className='flex items-center  gap-x-2'>
+                                <div key={item} className='flex items-center  gap-x-2'>
                                     <svg
                                         width="52"
                                         height="52"
