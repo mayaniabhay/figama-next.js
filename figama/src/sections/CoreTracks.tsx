@@ -55,7 +55,6 @@ const CoreTracks = () => {
                 </div>
             </Wrapper>
         </section>
-    )
-}
+    )}
 
 export default CoreTracks
