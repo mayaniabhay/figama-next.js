@@ -46,7 +46,7 @@ const CoreTracks = () => {
                 <div className='flex flex-col justify-center md:flex-row gap-y-4 items-stretch my-20 gap-x-4 max-w-screen-xl mx-auto'>
                     {CoreTrackData.map((item) => (
                         <QuarterBox
-                            key={item.number} 
+                            key={item.number} // Add key prop here
                             title={item.header}
                             paragraph={item.description}
                             num={item.number}
